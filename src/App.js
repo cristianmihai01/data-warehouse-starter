@@ -18,16 +18,7 @@ const App = () => {
     duration: 1800,
     offset: 0,
   });
-  return (
-    <div className='overflow-hidden'>
-      <Hero />
-      <About />
-      <Features />
-      <Testimonials />
-      <CtaSection />
-      <Footer />
-    </div>
-  );
+  return <div className='overflow-hidden'>react app</div>;
 };
 
 export default App;
